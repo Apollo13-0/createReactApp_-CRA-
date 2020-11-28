@@ -8,7 +8,6 @@ export default class App extends React.Component {
         super(props);
         this.state = {
             counter: 0
-            characters: []
         }
     }
     componentDidMount() {
@@ -63,22 +62,22 @@ export default class App extends React.Component {
                             <td>url</td>
                         </tr>
                         <tr>
-                            <td>{this.characters[0].name}</td>
-                            <td>{this.characters[0].height}</td>
-                            <td>{this.characters[0].mass}</td>
-                            <td>{this.characters[0].hair_color}</td>
-                            <td>{this.characters[0].skin_color}</td>
-                            <td>{this.characters[0].Neye_colorame}</td>
-                            <td>{this.characters[0].birth_year}</td>
-                            <td>{this.characters[0].gender}</td>
-                            <td>{this.characters[0].homeworld}</td>
-                            <td>{this.characters[0].films}</td>
-                            <td>{this.characters[0].species}</td>
-                            <td>{this.characters[0].vehicles}</td>
-                            <td>{this.characters[0].starships}</td>
-                            <td>{this.characters[0].created}</td>
-                            <td>{this.characters[0].edited}</td>
-                            <td>{this.characters[0].url}</td>
+                            <td>{this.characters}</td>
+                            <td>{this.characters}</td>
+                            <td>{this.characters}</td>
+                            <td>{this.characters}</td>
+                            <td>{this.characters}</td>
+                            <td>{this.characters}</td>
+                            <td>{this.characters}</td>
+                            <td>{this.characters}</td>
+                            <td>{this.characters}</td>
+                            <td>{this.characters}</td>
+                            <td>{this.characters}</td>
+                            <td>{this.characters}</td>
+                            <td>{this.characters}</td>
+                            <td>{this.characters}</td>
+                            <td>{this.characters}</td>
+                            <td>{this.characters}</td>
                         </tr>
                     </table>
                 </header>
